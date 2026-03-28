@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ali Hassan portfolio</title>
+    <link rel="stylesheet" href="./all.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a id="name" class="navbar-brand" href="#">Ali Hassan</a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contact</a>
+                    </li>
+                </ul>
+                <button class="btn btn-outline-light ms-3" onclick="darkMode()">🌙</button>
+            </div>
+        </div>
+    </nav>
+    <section class="hero">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h1>Hello, I'm Ali Hassan</h1>
+                    <h4 class="text-primary">Front-End Developer</h4>
+                    <p>I build modern websites using HTML, CSS, JavaScript and Bootstrap.</p>
+                    <a href="./projects.html" class="btn btn-primary">View My Projects</a>
+                </div>
+                <div class="col-md-6">
+                    <img src="photos/image4.png" class="img-fluid rounded-circle">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projects" class="p-5">
+        <div class="container">
+            <h2 class="text-center mb-4 text-primary">My Projects</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="photos/image2.png" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">onsite 1</h5>
+                            <p>using html & css</p>
+                            <button type="button" class="btn btn-outline-primary"><a id="link" href="onsite1/index.html"
+                                    target="_blank">view website</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./photos/image3.png" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">onsite 2</h5>
+                            <p>using html & css</p>
+                            <button type="button" class="btn btn-outline-primary"><a id="link" href="onsite2/index.html"
+                                    target="_blank">view website</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./photos/image1.png" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">onsite 5</h5>
+                            <p>using html,css & bootstrap</p>
+                            <button type="button" class="btn btn-outline-primary"><a id="link" href="onsite5/index.html"
+                                    target="_blank">view website</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p class="text-light text-center">&copy; 2026 Ali Hassan. All right reserved</p>
+    </footer>
+    <button onclick="topFunction()" id="topBtn">⬆</button>
+    <script src="./bootstrap.bundle.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
